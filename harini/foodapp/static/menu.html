@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Dishes</title>
+    <style>
+        body {    
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            font-size: 1.2em;
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .card-content p {
+            font-size: 0.9em;
+            color: #666;
+            margin: 0 0 10px;
+        }
+
+        .card-content .price {
+            font-size: 1em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card-content button {
+            background-color: #ff9800;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+
+        .card-content button:hover {
+            background-color: #e68a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Popular Dishes</div>
+        <div class="grid">
+            <div class="card">
+                <img src="sq-scrumptious-tiramisu-cake-cake2636exot-AA.webp" alt="Dish Image">
+                <div class="card-content">
+                    <h3>Tiramisu Cake</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.100.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="download (3).jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>mushroom</h3>
+                    <div class="price">Rs.200.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Veg-Puff-Recipe.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>veg puffs</h3>
+                    <div class="price">Rs.20.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Samosas-with-Potatoes-and-Peas-2-1.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>samosa</h3>
+                    <div class="price">Rs.15.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="naan.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>naan and paneer butter masala</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.200.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>dosa</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.10.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="idli.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>idli</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.10.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="full meals.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>full meals</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.100.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="sweet pongal.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>sweet pongal</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.50.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="rosemilk.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>rosemilk</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.40.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="soup.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>soup</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.70.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="noodles.jpg" alt="Dish Image">
+                <div class="card-content">
+                    <h3>noodles</h3>
+                    <p>Sample description text for this dish.</p>
+                    <div class="price">Rs.150.00</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
