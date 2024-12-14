@@ -44,7 +44,7 @@ Publish the website in the given URL.
 
         header {
             background-color: #b7a207;
-            font-family:Georgia, 'Times New Roman', Times, serif
+            font-family:Georgia, 'Times New Roman', Times, serif;
             padding: 1rem;
             text-align: center;
         }
@@ -67,7 +67,7 @@ Publish the website in the given URL.
         }
 
         .hero {
-            background: 123334-maharaja-bhog-2.webp;
+            background:url(' 123334-maharaja-bhog-2.webp');
             height: 400px;
             display: flex;
                         justify-content: center;
