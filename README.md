@@ -151,7 +151,7 @@ text-align: center;
 <body>
     <header>
         <h1>veggies world</h1>
-        <img src="hotel.jpg"> 
+        <img src="hotel.jpg">   
 
         <p>Have it feel it...</p>
     </header>
@@ -170,7 +170,7 @@ text-align: center;
     </section>
     <footer>
         <p>&copy; 2024 veggies world. All rights reserved.</p>
-        <p>&copy; designed by Gajalakshmi.</p>
+        <p>&copy; designed and devolped by Gajalakshmi.</p>
     </footer>    
 </body>
 
@@ -381,7 +381,7 @@ menu.html
         </div>
     </div>
     <footer>
-        <p>Designed by GAJALAKSHMI</p>
+        <p>Designed and developed by GAJALAKSHMI</p>
     </footer>
 </body>
 </html>
@@ -400,7 +400,7 @@ about.html
             background-image: url(istockphoto-1428412216-612x612.jpg);
             background-size: cover;
             background-repeat: no-repeat;
-            
+
             font-family: Arial, sans-serif;
         }
 
@@ -481,7 +481,7 @@ about.html
     </div>
     <footer>
         <p>&copy; 2024 veggies world. All rights reserved.</p>
-        <p>&copy; designed by Gajalakshmi.</p>
+        <p>&copy; designed and developed by Gajalakshmi.</p>
     </footer> 
 </body>
 </html>
@@ -630,20 +630,21 @@ contact.html
         </div>
     </section>
     <footer>
-        <p>
-            Designed by GAJALAKSHMI
-        </p>
-    </footer>
+        <p>&copy; 2024 veggies world. All rights reserved.</p>
+        <p>&copy; designed and devloped by Gajalakshmi.</p>
+    </footer>    
 </body>
 </html>
 ```
 
 
-## Output
-![alt text](src1(2).png)
-![alt text](src2(2).png)
-![alt text](src3(2).png)
-![alt text](src4(3).png)
-![alt text](src4(2).png)
+
+
+## Output:
+![alt text](<Screenshot (27)-1.png>)
+![alt text](<Screenshot (28).png>)
+![alt text](<Screenshot (29).png>)
+![alt text](<Screenshot (31).png>)
+![alt text](<Screenshot (32).png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
