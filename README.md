@@ -47,8 +47,9 @@ hotel.html
         header {
             background-color: #b7a207;
             font-family:Georgia, 'Times New Roman', Times, serif;
-            padding:1rem;
+            padding:0.5rem;
             text-align: center;
+            height:auto
         }
         
         nav {
@@ -150,8 +151,8 @@ text-align: center;
 <body>
     <header>
         <h1>veggies world</h1>
-        <img src="hotel.jpg">   
-        
+        <img src="hotel.jpg"> 
+
         <p>Have it feel it...</p>
     </header>
 
@@ -168,8 +169,9 @@ text-align: center;
            <img src="123334-maharaja-bhog-2.webp" height="500px" width="700px">
     </section>
     <footer>
-        <p>Designed By  GAJALAKSHMI</p>
-    </footer>
+        <p>&copy; 2024 veggies world. All rights reserved.</p>
+        <p>&copy; designed by Gajalakshmi.</p>
+    </footer>    
 </body>
 
 menu.html
@@ -428,7 +430,7 @@ about.html
 
         .worker {
             text-align: center;
-            color:aliceblue;
+            color:yellow;
         }
 
         .worker img {
@@ -446,7 +448,7 @@ about.html
         }
         footer{
             text-align: center;
-            color: yellow;
+            color:yellow;
         }
     </style>
 </head>
@@ -478,8 +480,9 @@ about.html
         </div>
     </div>
     <footer>
-        <p>Designed by GAJALAKSHMI</p>
-    </footer>
+        <p>&copy; 2024 veggies world. All rights reserved.</p>
+        <p>&copy; designed by Gajalakshmi.</p>
+    </footer> 
 </body>
 </html>
 
@@ -595,6 +598,7 @@ contact.html
             text-align: center;
             color:yellow;
         }
+
     </style>
 </head>
 <body >
@@ -633,12 +637,13 @@ contact.html
 </body>
 </html>
 ```
-## OUTPUT:
-![alt text](<Screenshot 2024-12-17 114031-1.png>)
-![alt text](<Screenshot 2024-12-17 114148.png>)
-![alt text](<Screenshot 2024-12-17 114201.png>)
-![alt text](<Screenshot 2024-12-17 114214.png>)
-![alt text](<Screenshot 2024-12-17 114238.png>)
 
+
+## Output
+![alt text](src1(2).png)
+![alt text](src2(2).png)
+![alt text](src3(2).png)
+![alt text](src4(3).png)
+![alt text](src4(2).png)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
