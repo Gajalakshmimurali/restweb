@@ -29,6 +29,8 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 ```
+hotel.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +47,7 @@ Publish the website in the given URL.
         header {
             background-color: #b7a207;
             font-family:Georgia, 'Times New Roman', Times, serif;
-            padding: 1rem;
+            padding:1rem;
             text-align: center;
         }
         
@@ -67,10 +69,10 @@ Publish the website in the given URL.
         }
 
         .hero {
-            background:url(' 123334-maharaja-bhog-2.webp');
-            height: 400px;
+            background:url( 123334-maharaja-bhog-2.webp);
+            height :  400px;
             display: flex;
-                        justify-content: center;
+            justify-content: center;
             padding: 0.5rem;
         }
 
@@ -137,14 +139,12 @@ text-align: center;
             margin: 0.5rem;
             color: #666;
         }
-
-        footer {
-            background-color: #333;
-            color: white;
+        footer{
             text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
+            color:black;
         }
+
+        
     </style>
 </head>
 <body>
@@ -166,13 +166,14 @@ text-align: center;
            <img src=" 1683699728_image.jpg " height="500px" width="700px">
            <h1>WELCOME</h1>    
            <img src="123334-maharaja-bhog-2.webp" height="500px" width="700px">
-
-         
-
-
     </section>
+    <footer>
+        <p>Designed By  GAJALAKSHMI</p>
+    </footer>
 </body>
+
 menu.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -259,6 +260,10 @@ menu.html
 
         .card-content button:hover {
             background-color: #e68a00;
+        }
+        footer{
+            text-align: center;
+            color:black;
         }
     </style>
 </head>
@@ -373,9 +378,14 @@ menu.html
             </div>
         </div>
     </div>
+    <footer>
+        <p>Designed by GAJALAKSHMI</p>
+    </footer>
 </body>
 </html>
+
 about.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -434,6 +444,10 @@ about.html
             font-size: 1.2em;
             font-style: italic;
         }
+        footer{
+            text-align: center;
+            color: yellow;
+        }
     </style>
 </head>
 <body>
@@ -463,9 +477,14 @@ about.html
             <p>chef dheena</p>
         </div>
     </div>
+    <footer>
+        <p>Designed by GAJALAKSHMI</p>
+    </footer>
 </body>
 </html>
+
 contact.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -572,6 +591,10 @@ contact.html
         .social-icons a:hover {
             color: #e6b800;
         }
+        footer{
+            text-align: center;
+            color:yellow;
+        }
     </style>
 </head>
 <body >
@@ -602,16 +625,20 @@ contact.html
             <a href="#">&#xf0d5;</a>
         </div>
     </section>
+    <footer>
+        <p>
+            Designed by GAJALAKSHMI
+        </p>
+    </footer>
 </body>
 </html>
 ```
-
-
 ## OUTPUT:
-![alt text](sc1-1.png)
-![alt text](sc2-1.png)
-![alt text](sc3-1.png)
-![alt text](sc4.png)
-![alt text](sc5.png)
+![alt text](<Screenshot 2024-12-17 114031-1.png>)
+![alt text](<Screenshot 2024-12-17 114148.png>)
+![alt text](<Screenshot 2024-12-17 114201.png>)
+![alt text](<Screenshot 2024-12-17 114214.png>)
+![alt text](<Screenshot 2024-12-17 114238.png>)
+
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
